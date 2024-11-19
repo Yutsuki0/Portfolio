@@ -616,6 +616,7 @@ a {
   height: 400px; /* Ajustez la hauteur pour desktop si nécessaire */
   object-fit: cover;
 }
+
 }
 @media (max-width: 576px) {
     .content-container {
@@ -634,9 +635,20 @@ a {
   .section {
     padding: 50px 0;
   }
-  .home-bg {
- 
+  .header_title {
+    font-size: 25px;
   }
+  
+  .navbar-toggler {
+    font-size: 18px; /* Réduit la taille de l'icône (ajuste à ta convenance) */
+    height: 40px; /* Ajuste la hauteur du bouton */
+    width: 60px; /* Ajuste la largeur du bouton */
+}
+/* Si tu veux aussi ajuster l'icône à l'intérieur */
+.navbar-toggler i {
+    font-size: 30px; /* Ajuste la taille de l'icône à ta convenance */
+}
+
 }
 
 .responsive-container {

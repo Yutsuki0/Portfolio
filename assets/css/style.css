@@ -601,4 +601,17 @@ a {
   .home-bg {
     padding: 146px 0;
   }
+  .header_tit {
+    font-size: 25px;
+  }
+  
+  .navbar-toggler {
+    font-size: 18px; /* Réduit la taille de l'icône (ajuste à ta convenance) */
+    height: 40px; /* Ajuste la hauteur du bouton */
+    width: 60px; /* Ajuste la largeur du bouton */
+}
+/* Si tu veux aussi ajuster l'icône à l'intérieur */
+.navbar-toggler i {
+    font-size: 30px; /* Ajuste la taille de l'icône à ta convenance */
+}
 }
