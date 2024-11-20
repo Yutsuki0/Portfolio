@@ -443,9 +443,6 @@ a {
   background-color: transparent;
   border-color: #337ab7;
 }
-.logo {
-  color: ;
-}
 .logo .logo-light {
   display: inline-block;
 }
@@ -479,22 +476,21 @@ a {
   .custom-nav {
     margin-top: 0px;
     padding: 10px 0px !important;
-    background-color: #fff !important;
   }
   .custom-nav .logo {
-    color: #000;
+    color: #ffffff;
   }
   .custom-nav .navbar-nav li a {
     margin: 0 0px;
     padding: 6px 0;
-    color: rgba(0, 0, 0, 0.55) !important;
+    color: rgb(255, 255, 255) !important;
   }
   .custom-nav .navbar-nav li a:before {
     content: "";
     display: none;
   }
   .custom-nav .navbar-nav li.active a {
-    color: #000 !important;
+    color: #ffffff !important;
   }
   .custom-nav > .container {
     width: 90%;
@@ -515,10 +511,10 @@ a {
     font-size: 29px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #000;
+    color: #ffffff;
   }
   .header_tit {
-    color: #000;
+    color: #ffffff;
   }
   .header_title {
     font-size: 40px;

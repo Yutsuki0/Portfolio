@@ -2,6 +2,7 @@
 body {
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
+  background-color: #000;
 }
 
 h1,
@@ -611,3 +612,55 @@ a {
     font-size: 30px; /* Ajuste la taille de l'icône à ta convenance */
 }
 }
+
+        /* Style du formulaire */
+        .contact-form {
+          padding: 30px;
+          border-radius: 8px;
+          max-width: 600px;
+          margin: 50px auto;
+          margin-top: 150px;
+      }
+
+      /* Style des labels */
+      .contact-form label {
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: white;
+      }
+
+      /* Style des champs de texte */
+      .contact-form input,
+      .contact-form textarea {
+          background-color: transparent;
+          color: white;
+          border: none;
+          border-bottom: 1px solid white; /* Bordure en bas des champs */
+          border-radius: 0; /* Pas de coins arrondis */
+          padding: 10px;
+          margin-bottom: 15px;
+          width: 100%;
+      }
+
+      /* Style du bouton */
+      .contact-form button {
+          background-color: white;
+          color: black;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1.1rem;
+          border-radius: 5px;
+          width: 100%;
+          cursor: pointer;
+      }
+
+      /* Effet hover sur le bouton */
+      .contact-form button:hover {
+          background-color: rgb(36, 36, 36);
+          color: white;
+      }
+
+      /* Style des messages d'erreur */
+      .alert {
+          display: none;
+      }

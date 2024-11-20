@@ -3,11 +3,11 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio-Réalisation</title>
+        <title>Portfolio-Contact</title>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/réalisations.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
     </head>
 
     <body>
@@ -27,46 +27,37 @@
                             <a href="réalisations.html" class="nav-link">Réalisations</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                            <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <section class="home-bg section h-100vh" id="home">
-            <a href="Nike.app.design.html"> 
-            <div class="bg-overlay"></div>
-            <div class="wrapper">
-                <div class="card">
-                  <div class="poster"><img src="assets/images/Minia Nike.png" alt="Location Unknown"></div>
-                    <div class="details">
-                        <h1>Nike app design | UX/UI</h1>
-                        <div class="tags">
-                            <span class="tag">Web Design</span>
-                            <span class="tag">Minimaliste</span>
-                            <span class="tag">Mobile</span>
-                        </div>
-                        <p class="desc">
-                           Discover a design mobile app for Nike below
-                        </p>
-                        <div class="resources">
-                            <h3>Resources</h3>
-                            <ul>
-                                <li><img src="assets/images/Figma logo.png" alt="Figma logo" title="Figma logo"></li>
-                                <li><img src="assets/images/Awwards logo.png" alt="Awwwards logo" title="Awwwards logo"></li>
-                                <li><img src="assets/images/Behance logo.svg" alt="Behance logo" title="Behance logo"></li>
-                            </ul>
-                        </div>
-                    </div>
+        <div class="contact-form">
+            <h2 class="text-center text-white">Contactez moi</h2>
+            <div class="alert alert-danger" role="alert" id="error-message"></div>
+            <div class="alert alert-success" role="alert" id="success-message"></div>
+            <form action="https://formspree.io/f/movqlkqj" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
-            </a>
-        </section>
-
-
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="1" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>            
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
          <script src="assets/js/jquery.min.js"></script>
-         <script src="assets/js/typed.js"></script>         
+         <script src="assets/js/typed.js"></script>
+         <script src="assets/js/contact.js"></script>     
+
     </body>
 </html>
